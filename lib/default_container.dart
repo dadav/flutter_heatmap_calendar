@@ -1,11 +1,11 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class DefaultContainer extends StatelessWidget {
   const DefaultContainer({
-    Key key,
-    @required this.size,
-    @required this.text,
-    @required this.textColor,
+    Key? key,
+    required this.size,
+    required this.text,
+    required this.textColor,
     this.margin: 2.0,
   }) : super(key: key);
 
